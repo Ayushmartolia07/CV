@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+</head>
+<body>
+    <h1>My Contact Details</h1>
+    <p>My Address</p>
+    <p>345646869996</p>
+    <p>webdev@gmail.com</p>
+    <hr>
+    <form action="mailto:martoliaayush@gmail.com" method="post" enctype="text/plain"> <!--here we are creating a form for user so that they can senf their message through this form 
+    here i am adding another attribute enoding type and this specifies that our websie is encoded in utf-8 we're going to say that data in our form is encoded in plain text-->
+    <label>YOUR NAME</label> <!--ASKING USER FOR THEIR NAME INPUT-->
+    <input type="text" name="yourName" value="">  <!--to store information or to allow the information we need to add an input type of input is gonna be text so it's gonna be text box that allows them to put in their name
+    <input type="email" name="" value=""--> <!--inpit is a self closing tag instead we can definr input type by attribute for ex text color etc..-->
+    <label>Your Email</label>
+    <input type="email" name="yourEmail" value="">
+    <label>Your message</label>
+    <textarea name="yourMessage" rows="10" cols="30"></textarea><br> <!--everything you will type is masked-->
+    
+    <input type="submit" name=""> <!--name,value are attributes  when user will hit the submit buton after we will go automatically to the mail which i have given earlier ... -->    
+    </form>
+</body>
+</html>
